@@ -1,0 +1,46 @@
+.tableContent {
+    margin-right: 10px
+}
+
+table {
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 10px !important
+}
+
+tr {
+    padding: 100px !important;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+tr:first-child {
+    cursor: auto;
+}
+
+tr:first-child:hover {
+    background-color: white;
+}
+
+tr:last-child {
+    border: none
+}
+
+tr:hover {
+    background-color: #edeef2;
+}
+
+td {
+    text-align: center;
+    margin: 0 1px !important
+}
+
+.table-body {
+    padding: 20px;
+    background-color: white;
+    margin-right: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

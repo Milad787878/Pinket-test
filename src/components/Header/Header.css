@@ -1,0 +1,42 @@
+.Navbar {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.Navbar>* {
+    margin: 0 3%
+}
+
+.Navbar__group-buttons {
+    margin-right: auto;
+}
+
+.Navbar__group-buttons>* {
+    margin: 0 5px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+}
+
+.Navbar__group-buttons__create-role {
+    background-color: #339ddb !important;
+    color: white;
+    border: none !important
+}
+
+button {
+    height: 8vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Navbar__group-buttons__data-store {
+    background-color: #24b99e !important;
+    color: white;
+    border: none
+}
